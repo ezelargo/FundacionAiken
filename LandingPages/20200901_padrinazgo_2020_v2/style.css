@@ -1,0 +1,256 @@
+/* 
+ * Santiago Acosta Villa Abrille | Senior e-Marketing & Web Developer
+ * Portinos Productora
+ */
+ .animate{
+    -webkit-transition: all 700ms cubic-bezier(0.000, 0, 0.040, 1); /* older webkit */
+    -webkit-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+       -moz-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+        -ms-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+         -o-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+            transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420); /* custom */
+    
+    -webkit-transition-timing-function: cubic-bezier(0.000, 0, 0.040, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+       -moz-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+        -ms-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+         -o-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+            transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420); /* custom */
+    }
+        
+    body{
+        font-family: 'Bitter', serif;
+        background-color: #FFFAF0;
+        width: 100%;
+        color: #4f4e4f;        
+        font-weight: 500;
+    }
+        
+    .aiken_main br {
+       display: block;   
+    }
+
+    .aiken_main .container{
+        background: none;        
+        width: 1100px !important;        
+    }
+            
+    .aiken_main .aiken_header{        
+        padding: 5px;        
+        background-size: cover;
+    }
+
+    .aiken_main .aiken_header img{        
+        margin-left: 50px;
+        margin-top: 30px;        
+        width: 200px;
+        height: 88px;
+    }
+
+    .aiken_main .aiken_header h1.titulo{
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        color: #7c5ea6;            
+        font-size: 38px !important;
+        font-weight: bold;
+        letter-spacing: 1px;    
+        line-height: 40px;        
+    }
+                                    
+    .aiken_main .aiken_video_form {
+        background: url(images/background_arcoiris.png)no-repeat top center;
+        background-size: cover;   
+        padding: 0px 100px 0px 100px;   
+        height: 550px;          
+    }
+
+    .aiken_main .aiken_video{        
+        margin-top: 85px;        
+     }
+    
+    .aiken_main .aiken_form{        
+        -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.50);
+        -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.50);
+        box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.50);        
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        margin-top: -150px;                
+        background-color: white;     
+        float: right;
+        position: relative;      
+        padding: 10px 40px 10px 40px;
+    }
+
+    .aiken_main .aiken_form form{        
+        margin-top: 20px;        
+     }
+
+    .aiken_main .aiken_form form label{        
+        font-size: 15px;
+        font-weight: 600;
+     }
+
+     .aiken_main .aiken_form form input[type='text'], input[type='email']{                         
+         width: 300px;
+         height: 40px;         
+     }
+
+    .aiken_main .aiken_form .boton{
+        margin-top: 15px;
+        background: #7c5ea6;
+        color: #fff;  
+        width: 130px;          
+        padding: 5px 10px 5px 10px;
+        line-height: 40px;                
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 5px;        
+        border: none !important;
+    }
+    
+    .aiken_main .aiken_line{
+        background: #7d5fa5;
+        padding: 20px 100px 0px 100px;
+        height: 200px;      
+    }
+    
+    .aiken_main .aiken_line h1{
+        font-size: 20px !important;
+        color: white;
+        vertical-align: middle;        
+        line-height: 30px;        
+    }
+
+    .aiken_main .aiken_line .boton{
+        margin-top: 10px;        
+        background: #fff;
+        color: #7c5ea6;          
+        padding: 5px 10px 5px 10px;
+        line-height: 40px;        
+        border-radius: 5px;
+        font-size: 15px;        
+        font-weight: bold;
+        border: none !important;
+    }
+
+    .aiken_main .aiken_line img{    
+        margin-top:25px;
+        height: 120px;
+        width: 120px;
+        float: right;
+    }
+    
+    .aiken_main .aiken_body{               
+        padding: 50px 50px 0px 50px;           
+    }
+            
+    .aiken_main .aiken_body p{               
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 15px;        
+        line-height: 20px;
+    }
+
+    .aiken_main .aiken_body h1{               
+        margin-top: 25px;
+        font-size: 16px;        
+        line-height: 20px;        
+    }
+        
+    .aiken_main .aiken_message {
+        background: url(images/background_arcoiris.png)no-repeat top center;
+        background-size: cover;   
+        padding: 0px 150px 0px 150px;
+        height: 160px;    
+        margin-top: 100px;                
+    }
+    
+    .aiken_main .aiken_message .aiken_message_body{
+        background: #7d5fa5;        
+        height: 320px;      
+        margin-top: -80px;        
+        position: relative;
+        padding-bottom: 20px;        
+    }    
+    
+    .aiken_main .aiken_message img{
+        margin-top: 25px;
+        float: right;
+        width: 120px;
+        height: 100px;
+    }
+
+    .aiken_main .aiken_message .aiken_message_body h1{        
+        color: white;    
+        margin-top: 45px;            
+        font-size: 18px;   
+        font-weight: bold;     
+    }
+
+    .aiken_main .aiken_message .aiken_message_body li{        
+        color: white;            
+        font-size: 14px;           
+    }
+
+    .aiken_main .aiken_dona{                               
+        padding: 0px 300px 0px 300px;           
+    }
+
+    .aiken_main .aiken_dona h1{                                               
+        margin-top: 130px;       
+        color: #7c5ea6; 
+        font-weight: bold;
+        font-size: 28px !important;
+        letter-spacing: .5px;    
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .aiken_main .aiken_dona .boton{
+        margin-top: 10px;        
+        background: #7c5ea6;
+        color: #fff;          
+        padding: 5px 10px 5px 10px;
+        line-height: 40px;        
+        border-radius: 5px;
+        font-size: 15px;        
+        font-weight: bold;
+        border: none !important;
+    }
+                  
+    .aiken_main .aiken_footer{
+        margin-top: 50px;
+        background: rgba(65,64,66,1);
+        padding: 10px 50px 10px 50px;
+        height: 80px;              
+    }  
+
+    .aiken_main .aiken_footer img{
+        margin-top: 5px;
+        width: 100px;
+        height: 50px;
+    }
+
+    .aiken_main .aiken_footer a{        
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 80px;
+    }
+
+    .aiken_main .aiken_footer .aiken_socials{
+        margin-top: 20px;                
+    }
+
+    .aiken_main .aiken_footer .aiken_socials a{        
+        color: white;    
+        float: right;    
+        margin-left: 20px;
+    }
+
+    .aiken_main .aiken_footer .aiken_socials i{        
+        color: white;        
+    }
+  

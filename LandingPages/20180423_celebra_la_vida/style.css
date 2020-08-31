@@ -1,0 +1,188 @@
+/* 
+ * Santiago Acosta Villa Abrille | Senior e-Marketing & Web Developer
+ * Portinos Productora
+ */
+.animate{
+-webkit-transition: all 700ms cubic-bezier(0.000, 0, 0.040, 1); /* older webkit */
+-webkit-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+   -moz-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+    -ms-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+     -o-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+        transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0, 0.040, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+   -moz-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+    -ms-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+     -o-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+        transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420); /* custom */
+}
+
+@font-face {
+      font-family: 'Watermelon Script Demo';
+      src: url('fonts/WatermelonScript.eot'); /* IE9 Compat Modes */
+      src: url('fonts/WatermelonScript.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('fonts/WatermelonScript.woff') format('woff'), /* Modern Browsers */
+           url('fonts/WatermelonScript.woff2') format('woff2'), /* Super Modern Browsers */
+           url('fonts/WatermelonScript.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('fonts/WatermelonScript.svg') format('svg'); /* Legacy iOS */
+    }
+
+.aiken_main,.aiken_main p{   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.aiken_main font{
+    display: block;
+    height: 15px;
+}
+.aiken_main br {
+   display: block;   
+}
+.aiken_main .container{
+    background: none;
+    max-width: 1024px;
+}
+.aiken_main .aiken_header{
+    background: url(img/fundacion_aiken_celebra_la_vida.jpg)no-repeat top center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-size: cover;
+}
+
+.aiken_main h2, .aiken_main h3
+{
+    color:#7c5ea6;    
+    margin: 0px;
+    font-family: 'Signika', sans-serif;
+}
+
+.aiken_main h3{
+    font-size: 22px;
+    font-weight: bold;        
+}
+
+.aiken_main h2{
+    font-size: 32px;
+    font-weight: bold;    
+}
+
+.aiken_main h1{
+    font-size: 39px;
+    font-weight: bold;    
+}
+
+.aiken_main h3.hashtag{
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.aiken_main h1.titulo{
+    margin-top: 25px;
+    color: #7c5ea6;    
+    font-family: 'Watermelon Script Demo';
+    font-size: 65px !important;
+}
+
+.aiken_main p.descripcion{        
+    letter-spacing: -.5px;    
+}
+
+.aiken_main .aiken_header p.descripcion_donar{
+    margin-top: 20px;        
+    font-weight: 500;
+    color: #e36690;
+}
+
+.aiken_main img.logo_fundacion{    
+    margin-top: 50px;
+    width: 170px;
+    height: 82px;    
+}
+
+.aiken_main .boton{
+    margin-top: 10px;
+    background: #e26690;
+    color: #fff;    
+    padding: 5px 15px 5px 15px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.aiken_main .aiken_line{
+    background: #7d5fa5;    
+}
+
+.aiken_main .aiken_line h1{
+    font-size: 20px !important;
+    color: white;
+    vertical-align: middle;
+    padding: 10px 0 0 40px;
+}
+
+.aiken_main .aiken_body{    
+    padding: 30px 0px 10px 20px;
+}
+
+.aiken_main .aiken_body h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #767676
+}
+
+.aiken_main .aiken_body i{
+    color: #7d5fa5;
+}
+
+.aiken_main .aiken_body p{
+    margin-left: 60px;
+    font-size: 16px;
+    line-height: 20px;    
+}
+
+.aiken_main .aiken_message {
+    margin-bottom: 5px;
+}
+
+.aiken_main .aiken_message p{
+    text-align: center;
+    margin-top: 20px;    
+    font-weight: 600;
+    font-size: 25px;
+    color: #e36690;
+}
+    
+.aiken_main .aiken_footer{
+    background: #7d5fa5;
+}
+
+.aiken_main .aiken_footer p{
+    margin-top: 20px;
+    color: white;     
+}
+.aiken_main .aiken_footer a{
+    color: white;    
+}
+
+.aiken_main .aiken_footer .socials{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .aiken_main h1,.aiken_main h2, .aiken_main h3{font-size: 2em}
+   .hidden-xs{
+        display: none
+    }
+    .aiken_main>div>div>div{
+        text-align: center;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }   
+}

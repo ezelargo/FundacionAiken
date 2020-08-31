@@ -1,0 +1,156 @@
+/* 
+ * Santiago Acosta Villa Abrille | Senior e-Marketing & Web Developer
+ * Portinos Productora
+ */
+.animate{
+-webkit-transition: all 700ms cubic-bezier(0.000, 0, 0.040, 1); /* older webkit */
+-webkit-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+   -moz-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+    -ms-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+     -o-transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420);
+        transition: all 700ms cubic-bezier(0.000, -0.300, 0.040, 1.420); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0, 0.040, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+   -moz-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+    -ms-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+     -o-transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420);
+        transition-timing-function: cubic-bezier(0.000, -0.300, 0.040, 1.420); /* custom */
+}
+.casa_para_aiken a{
+    color:#e26690;
+}
+.casa_para_aiken,.casa_para_aiken p{
+    background: #fefbf2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+.casa_para_aiken font{
+    display: block;
+    height: 15px;
+}
+.casa_para_aiken br {
+   display: block;
+   margin: 10px 0;
+}
+.casa_para_aiken .container{
+    background: none;
+    max-width: 1024px;
+}
+.casa_para_aiken .portihead{
+    background: url(img/bg_portihead.jpg)no-repeat top center;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-size: cover;
+}
+.casa_para_aiken h1,.casa_para_aiken h2, .casa_para_aiken h3{color:#fff;    margin: 0px;font-family: 'Signika', sans-serif;}
+.casa_para_aiken h3{
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.casa_para_aiken h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.casa_para_aiken h1{
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.casa_para_aiken .portibtn{
+    background: #e26690;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.casa_para_aiken .portiverde{
+    background: #95bba7;
+    height: 100px;
+    padding-left: 50px
+}
+.casa_para_aiken .portiverde h1{
+    line-height: 100px;
+}
+.casa_para_aiken .portiverde img{
+    float: right;
+    margin-top: -150px;
+    margin-right: 50px;
+    z-index: 2;
+    position: relative;
+}
+.casa_para_aiken .portidata{
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+.casa_para_aiken .portivioleta{
+        color: #7c5fa3;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.casa_para_aiken .portidata .portibtn{
+    float: left;
+    margin-right: 10px;
+}
+.casa_para_aiken .portidata span{
+    text-transform: uppercase;
+    line-height: 15px;
+    margin-top: 5px;
+    display: block;
+}
+
+@media only screen and (max-width: 500px) {
+    .casa_para_aiken h1,.casa_para_aiken h2, .casa_para_aiken h3{font-size: 2em}
+   .hidden-xs{
+        display: none
+    }
+    .casa_para_aiken>div>div>div{
+        text-align: center;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .casa_para_aiken .portidata span{
+        clear: both;
+        margin-top: 20px;
+    }
+    .casa_para_aiken .portidata .portibtn{
+        float: none;
+    }
+}
+
+
+
+
+
+iframe{
+    width: 100%;
+    border-radius: 10px;
+    max-width: 100%;
+    border: 0px;
+    height: 2050px;
+    margin: 0 auto;
+    top: 10px;
+    z-index: 1;
+    margin-right: -35px;
+    display: block;
+}
+
+
+
+
+
+
+
+
