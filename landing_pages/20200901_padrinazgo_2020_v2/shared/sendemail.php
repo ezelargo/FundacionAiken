@@ -15,17 +15,17 @@
 	$gRecaptchaResponse = trim(stripslashes($_POST["recaptcha"]));
 
 	/*
-	$inputs = array(
-                        "nombre" => $userName, "correo" => $userEmail,  "telefono" => $userPhone,
-                        "hour" => $userHour, "reCaptcha" => $gRecaptchaResponse
-					);
-							
-	foreach ($inputs as $name=>$value){
-		if(!isset($value) || empty($value)){
-			  echo(json_encode(array("type" => "fail", "message" => "El campo $name es obligatorio.")));
-				die;
+		$inputs = array(
+							"nombre" => $userName, "correo" => $userEmail,  "telefono" => $userPhone,
+							"hour" => $userHour, "reCaptcha" => $gRecaptchaResponse
+						);
+								
+		foreach ($inputs as $name=>$value){
+			if(!isset($value) || empty($value)){
+				echo(json_encode(array("type" => "fail", "message" => "El campo $name es obligatorio.")));
+					die;
+			}
 		}
-	}
 	*/
 	
 	if(Helper::GoogleRecaptchaValid($gRecaptchaResponse) == FALSE){
