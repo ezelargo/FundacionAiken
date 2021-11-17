@@ -249,7 +249,7 @@
            'name': $this.find('input[name=name]').val(),         
            'phone': $this.find('input[name=phone]').val(),             
            'email': $this.find('input[name=email]').val().trim(),           
-           'hour': $this.find('input[name=hour]').val(),
+           'hour': $this.find('input[name=hour]:checked').val(),
            'recaptcha': grecaptcha.getResponse(),
        };
 
